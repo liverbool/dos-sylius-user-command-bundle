@@ -1,0 +1,26 @@
+{
+  "name": "dos/sylius-user-command-bundle",
+  "license": "MIT",
+  "type": "symfony-bundle",
+  "autoload": {
+    "psr-4": {
+      "Dos\\SyliusUserCommandBundle\\": ""
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Dos\\SyliusUserCommandBundle\\": "spec/"
+    }
+  },
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "^3.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0"
+    }
+  }
+}
